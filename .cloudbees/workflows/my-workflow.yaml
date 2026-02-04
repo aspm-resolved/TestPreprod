@@ -17,5 +17,5 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: demo-go-service
-          artifact-id: b1a5c266-a685-41d3-ad13-f4ebd0b9b2c2
+          artifact-id: 2fc8b422-474f-4742-bcc2-33d0d9564963
           target-environment: testQAEnv
