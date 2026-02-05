@@ -13,9 +13,9 @@ jobs:
         with:
           labels: demo-go-service
           artifact-id: 684f2f77-f0b0-4ea2-85c4-1a2a03007ebe
-          target-environment: Production
+          target-environment: TO-TO
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: demo-go-service
           artifact-id: dc39e32a-c164-4e32-9e13-0d547299dcd6
-          target-environment: testQAEnv
+          target-environment: Test-env
