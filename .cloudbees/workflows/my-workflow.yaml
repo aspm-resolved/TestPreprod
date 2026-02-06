@@ -12,7 +12,7 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: demo-go-service
-          artifact-id: 4008353e-d30b-44f2-b765-ddd06a1d5304
+          artifact-id: eafb141d-224c-4164-a95c-12fb7fa2a549
           target-environment: TOTO
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
